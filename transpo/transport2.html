@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emerging Transportation Technologies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="stylestranspo2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+      #hero {
+          background-image: url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');
+          background-size: cover;
+          background-position: center;
+      }
+  </style>
+</head>
+<body>
+  <nav class="top-nav">
+      <div class="container">
+          <div class="nav-brand">
+              <a href="home.html"><img src="t1.png" alt="Trendy Logo" class="logo"></a>
+              <span>TRENDY</span>
+          </div>
+          <div class="nav-links">
+              <a href="aboutus.html" class="nav-link"><i class="fas fa-info-circle"></i> About Us</a>
+              <div class="dropdown-menu">
+                  <a href="#categories"><i class="fas fa-th-large"></i> Categories <i class="fas fa-chevron-down"></i></a>
+                  <div class="dropdown-content">
+                      <a href="communication.html"><i class="fas fa-comments"></i> Communication</a>
+                      <a href="security.html"><i class="fas fa-shield-alt"></i> Security</a>
+                      <a href="health.html"><i class="fas fa-heartbeat"></i> Health</a>
+                      <a href="entertainment.html"><i class="fas fa-film"></i> Entertainment</a>
+                      <a href="transportation.html"><i class="fas fa-car"></i> Transportation</a>
+                      <a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a>
+                  </div>
+              </div>
+              <a href="#feedback" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+          </div>
+      </div>
+  </nav>
+
+  <section id="hero">
+      <div class="container">
+          <h2>Emerging Transportation Technologies</h2>
+          <div class="author-info">
+              <div class="author-image">
+                  <img src="y.jpg" alt="Author" class="profile-image">
+              </div>
+              <div class="author-name">
+                  <span>Casing, Yasmin</span>
+              </div>
+          </div>
+          <div class="back-button">
+              <a href="company.html" class="btn-back"><i class="fas fa-building"></i> Back to Company</a>
+          </div>
+      </div>
+  </section>
+
+  <div class="page-navigation">
+      <a href="transport.html" class="nav-button prev">
+          <div class="circle">
+              <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="text">Previous Topic</div>
+      </a>
+      <a href="transportation3.html" class="nav-button next">
+          <div class="circle">
+              <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="text">Next Topic</div>
+      </a>
+  </div>
+
+  <main>
+      <section id="mobility" class="product-section">
+          <div class="container">
+              <h2><span class="section-icon"><i class="fas fa-rocket"></i></span> Next-Gen Mobility Solutions</h2>
+              <div class="tech-grid">
+                  <div class="tech-card" onclick="toggleTechCard(this)">
+                      <div class="tech-icon"><i class="fas fa-train"></i></div>
+                      <h3>Hyperloop Systems</h3>
+                      <div class="tech-content">
+                          <p>Near-vacuum tube transportation enabling 700+ mph travel with minimal energy consumption. Current projects connect major cities with travel times reduced by 80%.</p>
+                          <ul>
+                              <li>Operational test track in Nevada</li>
+                              <li>First commercial routes planned for 2026</li>
+                              <li>Energy self-sufficient through solar panels</li>
+                          </ul>
+                          <div class="content-spacer"></div>
+                      </div>
+                      <div class="tech-overlay">Click to Learn More</div>
+                  </div>
+                
+                  <div class="tech-card" onclick="toggleTechCard(this)">
+                      <div class="tech-icon"><i class="fas fa-helicopter"></i></div>
+                      <h3>eVTOL Aircraft</h3>
+                      <div class="tech-content">
+                          <p>Electric Vertical Take-Off and Landing vehicles revolutionizing urban air mobility with zero-emission point-to-point transportation.</p>
+                          <ul>
+                              <li>300+ mile range on single charge</li>
+                              <li>Autonomous flight capabilities</li>
+                              <li>50+ companies developing models</li>
+                          </ul>
+                      </div>
+                      <div class="tech-overlay">Click to Learn More</div>
+                  </div>
+                
+                  <div class="tech-card" onclick="toggleTechCard(this)">
+                      <div class="tech-icon"><i class="fas fa-subway"></i></div>
+                      <h3>Smart Rail Networks</h3>
+                      <div class="tech-content">
+                          <p>AI-optimized rail systems with predictive maintenance and dynamic routing that adapt to passenger flow in real-time.</p>
+                          <ul>
+                              <li>40% increase in network efficiency</li>
+                              <li>Self-healing infrastructure</li>
+                              <li>Integrated renewable energy systems</li>
+                          </ul>
+                      </div>
+                      <div class="tech-overlay">Click to Learn More</div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="startups" class="product-section alt-bg">
+          <div class="container">
+              <h2><span class="section-icon"><i class="fas fa-lightbulb"></i></span> Disruptive Transportation Startups</h2>
+              <div class="startup-showcase">
+                  <div class="startup-row">
+                      <div class="startup-card">
+                          <div class="startup-image">
+                              <img src="skyp.jpg" alt="SkyPort Vertiports">
+                              <div class="startup-badge">Series C Funding</div>
+                          </div>
+                          <div class="startup-info">
+                              <h3>SkyPort Technologies</h3>
+                              <p class="startup-tagline">Building the infrastructure for urban air mobility</p>
+                              <div class="startup-stats">
+                                  <div><i class="fas fa-map-marker-alt"></i> 14 Cities</div>
+                                  <div><i class="fas fa-bolt"></i> 200+ Charging Hubs</div>
+                                  <div><i class="fas fa-calendar-check"></i> 2025 Launch</div>
+                              </div>
+                              <button class="startup-btn" onclick="showStartupDetails('skyport')">View Details</button>
+                          </div>
+                      </div>
+                    
+                      <div class="startup-card">
+                          <div class="startup-image">
+                              <img src="ne.jpg" alt="Neuron EV Vehicles">
+                              <div class="startup-badge">Innovation Award 2024</div>
+                          </div>
+                          <div class="startup-info">
+                              <h3>Neuron EV</h3>
+                              <p class="startup-tagline">Modular electric platforms for diverse mobility needs</p>
+                              <div class="startup-stats">
+                                  <div><i class="fas fa-cogs"></i> 5 Configurations</div>
+                                  <div><i class="fas fa-road"></i> 400 Mile Range</div>
+                                  <div><i class="fas fa-truck-loading"></i> Commercial 2024</div>
+                              </div>
+                              <button class="startup-btn" onclick="showStartupDetails('neuron')">View Details</button>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="startup-row-gap"></div>
+
+                  <div class="startup-row">
+                      <div class="startup-card">
+                          <div class="startup-image">
+                              <img src="log.jpg" alt="HyperX Logistics">
+                              <div class="startup-badge">Seed Round</div>
+                          </div>
+                          <div class="startup-info">
+                              <h3>HyperX Logistics</h3>
+                              <p class="startup-tagline">AI-powered autonomous delivery networks</p>
+                              <div class="startup-stats">
+                                  <div><i class="fas fa-robot"></i> 100% Autonomous</div>
+                                  <div><i class="fas fa-shipping-fast"></i> 30-min Delivery</div>
+                                  <div><i class="fas fa-calendar-check"></i> 2024 Pilot</div>
+                              </div>
+                              <button class="startup-btn" onclick="showStartupDetails('hyperx')">View Details</button>
+                          </div>
+                      </div>
+
+                      <div class="startup-card">
+                          <div class="startup-image">
+                              <img src="urban.jpeg" alt="GreenMove Solutions">
+                              <div class="startup-badge">Series A</div>
+                          </div>
+                          <div class="startup-info">
+                              <h3>GreenMove Solutions</h3>
+                              <p class="startup-tagline">Carbon-negative urban mobility platforms</p>
+                              <div class="startup-stats">
+                                  <div><i class="fas fa-leaf"></i> 100% Renewable</div>
+                                  <div><i class="fas fa-city"></i> 8 Metro Areas</div>
+                                  <div><i class="fas fa-calendar-check"></i> 2023 Launched</div>
+                              </div>
+                              <button class="startup-btn" onclick="showStartupDetails('greenmove')">View Details</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            
+              <div id="startup-details" class="startup-details-container">
+                  <!-- Dynamic content will be inserted here by JavaScript -->
+              </div>
+          </div>
+      </section>
+
+      <section id="sustainability" class="product-section">
+          <div class="container">
+              <h2><span class="section-icon"><i class="fas fa-leaf"></i></span> Eco-Transport Innovations</h2>
+              <div class="eco-timeline">
+                  <div class="eco-phase active">
+                      <div class="eco-icon"><i class="fas fa-car-battery"></i></div>
+                      <h3>Electrification</h3>
+                      <p>Current focus on battery technology and charging infrastructure</p>
+                      <div class="eco-progress"></div>
+                  </div>
+                  <div class="eco-phase">
+                      <div class="eco-icon"><i class="fas fa-atom"></i></div>
+                      <h3>Hydrogen</h3>
+                      <p>Next-generation fuel cells for heavy transport applications</p>
+                      <div class="eco-progress"></div>
+                  </div>
+                  <div class="eco-phase">
+                      <div class="eco-icon"><i class="fas fa-solar-panel"></i></div>
+                      <h3>Solar Mobility</h3>
+                      <p>Integrated photovoltaic systems for self-sufficient vehicles</p>
+                      <div class="eco-progress"></div>
+                  </div>
+                  <div class="eco-phase">
+                      <div class="eco-icon"><i class="fas fa-recycle"></i></div>
+                      <h3>Circular Systems</h3>
+                      <p>Closed-loop manufacturing and end-of-life recycling</p>
+                      <div class="eco-progress"></div>
+                  </div>
+              </div>
+            
+              <div class="eco-stats">
+                  <div class="stat-card">
+                      <div class="stat-value">78%</div>
+                      <div class="stat-label">Reduction in CO2 emissions</div>
+                  </div>
+                  <div class="stat-card">
+                      <div class="stat-value">2.4x</div>
+                      <div class="stat-label">Energy efficiency gain</div>
+                  </div>
+                  <div class="stat-card">
+                      <div class="stat-value">94%</div>
+                      <div class="stat-label">Recyclable materials</div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="global" class="product-section alt-bg map-section">
+          <div class="container">
+              <h2><span class="section-icon"><i class="fas fa-globe-americas"></i></span> Worldwide Deployment</h2>
+              <div class="global-content-wrapper">
+                  <div class="map-container">
+                      <img src="transportation-world-map.jpg" alt="Global Transportation Innovations Map" class="map-image" onerror="this.src='https://via.placeholder.com/800x450?text=World+Map+Placeholder'">
+                      <div class="map-point" style="top: 30%; left: 15%">
+                          <div class="point-pulse"></div>
+                          <div class="point-info">Tokyo Maglev</div>
+                      </div>
+                      <div class="map-point" style="top: 40%; left: 50%">
+                          <div class="point-pulse"></div>
+                          <div class="point-info">EU Hyperloop</div>
+                      </div>
+                      <div class="map-point" style="top: 60%; left: 30%">
+                          <div class="point-pulse"></div>
+                          <div class="point-info">Dubai Air Taxis</div>
+                      </div>
+                      <div class="map-point" style="top: 70%; left: 75%">
+                          <div class="point-pulse"></div>
+                          <div class="point-info">US Smart Highways</div>
+                      </div>
+                  </div>
+                
+                  <div class="deployment-info">
+                      <div class="deployment-table">
+                          <div class="table-header">
+                              <div>Country</div>
+                              <div>Technology</div>
+                              <div>Investment</div>
+                              <div>Timeline</div>
+                          </div>
+                          <div class="table-row">
+                              <div><strong>Japan</strong></div>
+                              <div>Maglev Network</div>
+                              <div>$42B</div>
+                              <div>2025-2035</div>
+                          </div>
+                          <div class="table-row">
+                              <div><strong>Germany</strong></div>
+                              <div>Hydrogen Infrastructure</div>
+                              <div>$18B</div>
+                              <div>2024-2030</div>
+                          </div>
+                          <div class="table-row">
+                              <div><strong>UAE</strong></div>
+                              <div>Urban Air Mobility</div>
+                              <div>$9B</div>
+                              <div>2026-2032</div>
+                          </div>
+                      </div>
+                      <div class="deployment-stats">
+                          <h3>Global Impact</h3>
+                          <ul>
+                              <li><i class="fas fa-check-circle"></i> 45+ countries implementing new transport tech</li>
+                              <li><i class="fas fa-check-circle"></i> $280B+ total global investment</li>
+                              <li><i class="fas fa-check-circle"></i> 120+ major cities with pilot programs</li>
+                              <li><i class="fas fa-check-circle"></i> 65% projected reduction in urban congestion</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </main>
+
+  <footer>
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-brand">
+                  <img src="t.png" alt="Trendy Logo" class="footer-logo">
+                  <p class="footer-description">Exploring the future through industry innovation.</p>
+              </div>
+        
+              <div class="footer-links">
+                  <div class="link-group">
+                      <h4><i class="fas fa-industry"></i> Industries</h4>
+                      <ul>
+                          <li><a href="health.html"><i class="fas fa-heartbeat"></i> Health Tech</a></li>
+                          <li><a href="security.html"><i class="fas fa-shield-alt"></i> Cybersecurity</a></li>
+                          <li><a href="transportation.html"><i class="fas fa-car"></i> Transportation</a></li>
+                      </ul>
+                  </div>
+                  <div class="link-group-2">
+                      <ul>
+                          <li><a href="communication.html"><i class="fas fa-comments"></i> Communication</a></li>
+                          <li><a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                          <li><a href="entertainment.html"><i class="fas fa-film"></i> Entertainment</a></li>
+                      </ul>
+                  </div>
+            
+                  <div class="link-group">
+                      <h4><i class="fas fa-building"></i> Company</h4>
+                      <ul>
+                          <li><a href="about.html"><i class="fas fa-users"></i> About</a></li>
+                          <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+                          <li><a href="#feedback"><i class="fas fa-envelope"></i> Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+    
+          <div class="footer-bottom">
+              <div class="copyright">
+                  © 2025 Trendy Info. All rights reserved.
+              </div>
+              <div class="legal-links">
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Terms of Service</a>
+                  <a href="#">Cookie Policy</a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <script src="js/bootstrap.js"></script>
+  <script>
+      // Interactive Tech Cards
+      function toggleTechCard(card) {
+          card.classList.toggle('active');
+      }
+    
+      // Startup Details Modal
+      function showStartupDetails(startupId) {
+          const detailsContainer = document.getElementById('startup-details');
+          let content = '';
+        
+          if(startupId === 'skyport') {
+              content = `
+                  <div class="startup-detail">
+                      <button class="close-btn" onclick="closeDetails()"><i class="fas fa-times"></i></button>
+                      <h3>SkyPort Technologies</h3>
+                      <div class="detail-grid">
+                          <div>
+                              <h4>About</h4>
+                              <p>Developing vertiport infrastructure for electric air taxi networks in urban centers with modular, scalable designs.</p>
+                              <h4>Key Features</h4>
+                              <ul>
+                                  <li>Automated charging systems</li>
+                                  <li>Integrated passenger processing</li>
+                                  <li>Weather-resistant designs</li>
+                              </ul>
+                          </div>
+                          <div>
+                              <h4>Milestones</h4>
+                              <ul>
+                                  <li>2023: First operational vertiport</li>
+                                  <li>2024: Series C funding ($220M)</li>
+                                  <li>2025: Planned 14-city network</li>
+                              </ul>
+                              <h4>Partnerships</h4>
+                              <p>Working with 6 major eVTOL manufacturers to standardize docking protocols.</p>
+                          </div>
+                      </div>
+                  </div>
+              `;
+          } else if(startupId === 'neuron') {
+              content = `
+                  <div class="startup-detail">
+                      <button class="close-btn" onclick="closeDetails()"><i class="fas fa-times"></i></button>
+                      <h3>Neuron EV</h3>
+                      <div class="detail-grid">
+                          <div>
+                              <h4>About</h4>
+                              <p>Creating modular electric vehicles with swappable components for multiple use cases from passenger to cargo.</p>
+                              <h4>Key Features</h4>
+                              <ul>
+                                  <li>90% component commonality</li>
+                                  <li>5-minute battery swaps</li>
+                                  <li>AI-driven predictive maintenance</li>
+                              </ul>
+                          </div>
+                          <div>
+                              <h4>Milestones</h4>
+                              <ul>
+                                  <li>2022: Prototype unveiled</li>
+                                  <li>2023: Production facility built</li>
+                                  <li>2024: First commercial deliveries</li>
+                              </ul>
+                              <h4>Technology</h4>
+                              <p>Patented modular chassis system allows for 12+ vehicle configurations from one platform.</p>
+                          </div>
+                      </div>
+                  </div>
+              `;
+          } else if(startupId === 'hyperx') {
+              content = `
+                  <div class="startup-detail">
+                      <button class="close-btn" onclick="closeDetails()"><i class="fas fa-times"></i></button>
+                      <h3>HyperX Logistics</h3>
+                      <div class="detail-grid">
+                          <div>
+                              <h4>About</h4>
+                              <p>Revolutionizing last-mile delivery with autonomous ground vehicles and drone networks for ultra-fast urban logistics.</p>
+                              <h4>Key Features</h4>
+                              <ul>
+                                  <li>AI-optimized routing algorithms</li>
+                                  <li>Zero-emission electric fleet</li>
+                                  <li>24/7 operation capability</li>
+                              </ul>
+                          </div>
+                          <div>
+                              <h4>Milestones</h4>
+                              <ul>
+                                  <li>2023: Seed funding secured</li>
+                                  <li>2024: Pilot program in 3 cities</li>
+                                  <li>2025: Planned nationwide expansion</li>
+                              </ul>
+                              <h4>Technology</h4>
+                              <p>Combines autonomous ground vehicles with aerial drones for hybrid delivery solutions.</p>
+                          </div>
+                      </div>
+                  </div>
+              `;
+          } else if(startupId === 'greenmove') {
+              content = `
+                  <div class="startup-detail">
+                      <button class="close-btn" onclick="closeDetails()"><i class="fas fa-times"></i></button>
+                      <h3>GreenMove Solutions</h3>
+                      <div class="detail-grid">
+                          <div>
+                              <h4>About</h4>
+                              <p>Developing carbon-negative mobility solutions through innovative vehicle design and renewable energy integration.</p>
+                              <h4>Key Features</h4>
+                              <ul>
+                                  <li>Vehicle-to-grid energy systems</li>
+                                  <li>Biodegradable materials</li>
+                                  <li>Carbon capture technology</li>
+                              </ul>
+                          </div>
+                          <div>
+                              <h4>Milestones</h4>
+                              <ul>
+                                  <li>2022: Series A funding</li>
+                                  <li>2023: Launched in 8 metro areas</li>
+                                  <li>2024: Expansion to Europe</li>
+                              </ul>
+                              <h4>Impact</h4>
+                              <p>Each vehicle removes 2 tons of CO2 annually from the atmosphere through proprietary technology.</p>
+                          </div>
+                      </div>
+                  </div>
+              `;
+          }
+        
+          detailsContainer.innerHTML = content;
+          detailsContainer.style.display = 'block';
+          document.body.style.overflow = 'hidden';
+      }
+    
+      function closeDetails() {
+          document.getElementById('startup-details').style.display = 'none';
+          document.body.style.overflow = 'auto';
+      }
+    
+      // Eco Timeline Animation
+      const ecoPhases = document.querySelectorAll('.eco-phase');
+      ecoPhases.forEach(phase => {
+          phase.addEventListener('click', () => {
+              ecoPhases.forEach(p => p.classList.remove('active'));
+              phase.classList.add('active');
+          });
+      });
+  </script>
+</body>
+</html>
